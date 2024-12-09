@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Winter</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="quin">
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+    </div>
+    <div class="quin">
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+    </div>
+    <div class="quin">
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten center-content">
+        <img
+          src="imgs/g7.png"
+          class="img22 yes-cursor draggable draggable7"
+          id="hg"
+          onclick="showGifModal()"
+          draggable="true"
+        />
+      </div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+    </div>
+    <div class="quin">
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+    </div>
+    <div class="quin">
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+      <div class="ten center-content"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten"></div>
+      <div class="ten center-content"></div>
+    </div>
+
+    <div class="twin">
+      <div class="seven center-content"></div>
+      <div class="seven center-content"></div>
+      <div class="seven center-content move-note">
+        <img
+          src="imgs/note.png"
+          class="imgnote none yes-cursor"
+          id="n"
+          draggable="false"
+          onclick="showEndModal()"
+        />
+      </div>
+      <div class="seven center-content move-up">
+        <img src="" class="imgbig" id="h" draggable="false" />
+      </div>
+      <div class="seven center-content"></div>
+      <div class="seven center-content">
+        <img src="imgs/seb.png" class="img none" id="seb" />
+      </div>
+      <div class="seven center-content"></div>
+    </div>
+    <div class="twin2 blue"></div>
+    <div class="twin1">
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue1 center-content dropzone" id="b7"></div>
+      <div class="seven3 blue center-content" id="cb">
+        <img
+          src="imgs/check.png"
+          class="img4 yes-cursor"
+          onclick="jp()"
+          id="c"
+          draggable="false"
+        />
+      </div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+      <div class="seven3 blue"></div>
+    </div>
+    <div class="twin2 blue"></div>
+    <script src="script.js"></script>
+    <script src="preload.js"></script>
+  </body>
+  <!-- this modal is 'fixed' in position so it doesn't affect elements in your DOM -->
+  <div class="modal center-content" id="myModal">
+    <!-- this is the "X" button to close the modal -->
+    <span class="close" style="font-size: 75px" onclick="hideModal()"
+      >&times;</span
+    >
+    <div class="modal-content center-content">
+      <img src="imgs/final-removebg-preview.png" class="img" />
+    </div>
+  </div>
+  <div class="endmodal center-content" id="end">
+    <div class="endmodal-content">
+      <div class="center-content">
+        <img src="imgs/WEENIES__3_-removebg-preview.png" class="" />
+      </div>
+      <div class="center-content">
+        <img
+          src="imgs/aaa.png"
+          class="center-content clickable"
+          onClick="changeOpenEnd()"
+        />
+      </div>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,250 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: block;
+  background-image: url("imgs/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: url("imgs/boo.png"), auto;
+}
+
+.quin {
+  display: flex;
+  height: 14%;
+  width: 100%;
+}
+.bigpapa {
+  display: flex;
+  height: 85%;
+  width: 100%;
+}
+.twin {
+  display: flex;
+  height: 15%;
+  width: 100%;
+}
+.twin1 {
+  display: flex;
+  height: 10%;
+  width: 100%;
+}
+.twin2 {
+  display: flex;
+  height: 2.5%;
+  width: 100%;
+}
+
+.ten {
+  height: 100%;
+  width: 10%;
+}
+
+.seven {
+  height: 100%;
+  width: 14.28571%;
+}
+.seven3 {
+  height: 100%;
+  width: 4.7619%;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  cursor: url("imgs/boo.png"), auto;
+}
+
+.imgnote {
+  max-height: 25%;
+  max-width: 25%;
+  z-index: 99;
+}
+
+.img22 {
+  max-height: 90%;
+  max-width: 90%;
+}
+.bob {
+  max-height: 100%;
+  max-width: 100%;
+}
+.imgarrow {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.img2 {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.img3 {
+  max-height: 130%;
+  max-width: 130%;
+}
+.img4 {
+  max-height: 100%;
+  max-width: 100%;
+}
+.imgbig {
+  max-height: 250%;
+  max-width: 250%;
+}
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.move-up {
+  position: relative;
+  top: -50px; /* Moves the image 100px up */
+}
+.move-note {
+  position: relative;
+  bottom: -55px;
+  left: 125px;
+}
+.clickable {
+  filter: brightness(70%) drop-shadow(1px 3px 2px);
+}
+.clickable:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(1px 3px 2px);
+}
+/* add satisfaction to click */
+.clickable:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+
+.yes-cursor:hover {
+  opacity: 0.7;
+}
+.yes-cursor:active {
+  transform: scale(0.95, 0.95);
+}
+.yes-cursor {
+  cursor: pointer;
+}
+.draggable {
+  margin: 10px;
+  display: inline-block;
+  cursor: grab;
+}
+.dropzone {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone2 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone3 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone4 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone5 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone6 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+.dropzone7 {
+  border: 2px dashed #ccc;
+  position: relative;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.95;
+}
+.gifmodal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c;
+  opacity: 0.95;
+}
+/* Don't cover the entire screen */
+.modal-content {
+  width: 85%;
+  height: 100%;
+  margin: 0;
+}
+
+.gifmodal-content {
+  display: block;
+  width: 80%;
+  height: 70%;
+  margin: 0;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  position: fixed;
+  top: 33%;
+  right: 27%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #313131;
+  text-decoration: none;
+  cursor: pointer;
+}
+.endmodal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+.endmodal-content {
+  display: block;
+  width: 85%;
+  height: 100%;
+  margin: 0;
+}
+
+.blue {
+  background-color: #7a79f9;
+}
+
+.blue1 {
+  background-color: #6262ca;
+}
+
+.green {
+  background-color: rgb(64, 187, 80);
+}
+
+.red {
+  background-color: rgb(187, 64, 64);
+}
+
+.none {
+  display: none;
+}
