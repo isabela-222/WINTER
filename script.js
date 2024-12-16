@@ -307,7 +307,7 @@ function getCookie(name) {
 //////////////////////////////////////////////////////////////////////////
 function jp() {
   const boxes = [
-    { id: "b7", correctSrc: "https://xsrn9c.csb.app/imgs/g7.png" },
+    { id: "b7", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g7.png" },
   ];
 
   let allCorrect = true;
