@@ -220,12 +220,12 @@ dropzone7.addEventListener("drop", (e) => {
 
 function jackpot() {
   const boxes = [
-    { id: "b1", correctSrc: "https://xsrn9c.csb.app/imgs/g1.png" },
-    { id: "b2", correctSrc: "https://xsrn9c.csb.app/imgs/g14.png" },
-    { id: "b3", correctSrc: "https://xsrn9c.csb.app/imgs/g6.png" },
-    { id: "b4", correctSrc: "https://xsrn9c.csb.app/imgs/g11.png" },
-    { id: "b5", correctSrc: "https://xsrn9c.csb.app/imgs/g13.png" },
-    { id: "b6", correctSrc: "https://xsrn9c.csb.app/imgs/g3.png" },
+    { id: "b1", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g1.png},
+    { id: "b2", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g14.png" },
+    { id: "b3", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g6.png" },
+    { id: "b4", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g11.png" },
+    { id: "b5", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g13.png" },
+    { id: "b6", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g3.png" },
   ];
 
   let allCorrect = true;
