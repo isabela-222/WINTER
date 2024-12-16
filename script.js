@@ -220,7 +220,7 @@ dropzone7.addEventListener("drop", (e) => {
 
 function jackpot() {
   const boxes = [
-    { id: "b1", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g1.png"},
+    { id: "b1", correctSrc: "https://isabela-222.github.io/WINTER/1.html/g1.png"},
     { id: "b2", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g14.png" },
     { id: "b3", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g6.png" },
     { id: "b4", correctSrc: "https://isabela-222.github.io/WINTER/imgs/g11.png" },
