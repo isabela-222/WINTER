@@ -268,7 +268,7 @@ function changeOpen1() {
   window.location.href = "2.html";
 }
 function changeOpenEnd() {
-  window.location.href = "https://rnf64n.csb.app/";
+  window.location.href = "https://isabela-222.github.io/ENDING_OF_WINTER/";
 }
 
 //////////////////////////////////////////////////////////////////////
